@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    padding: 10px;
+    background: #d8a887;
+}
+
+.header{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.perfil{
+    text-align: left;
+}
+
+.perfil p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav{
+    background-color: #5a5a5a;
+    text-align: center;
+}
+
+.nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.footer{
+    color: #ffffff;
+    background-color: #5a5a5a;
+    text-align: center;
+}
+
+.body{
+    padding: 10px;
+    color: #570c0c;
+}
+
+.horarios{
+    background-color: #744949;
+}
+
+.lunes{color: red;}
+.martes{color: yellow;}
+.miercoles{color: white;}
+.jueves{color: green;}
+.viernes{color: orange;}
+.sabado{color: violet;}
+.domingo{color: blue;}
