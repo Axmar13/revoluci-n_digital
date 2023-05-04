@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul li {
+    margin: 3px 0;
+  }
+
+body{
+    font-family: Arial;
+    background: #75abda;
+    background-image: url("bandera_argentina.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.header{
+    text-align: center;
+    background-color: #75abda;
+    width: 100%;
+}
+
+.leftcolumn{
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding-top: 4px;
+    padding-left: 5px;
+    padding-bottom: 507px;
+}
+
+.leftcolumn p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.rigthcolumn{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.boxredes{
+    float: right;
+    box-sizing: content-box;
+    width: 53%;
+}
+
+.redes{
+    text-align: left;
+}
+
+.redes a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer a{
+    color: #000000;
+    text-decoration: underline yellow;
+    margin: 20px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: #000000;
+    background-color: #75abda;
+    text-align: center;
+}
+
+.body{
+    padding: 10px;
+    color: black;
+}
+
+.tabla{
+    border-color: yellow;
+}
+
+.horarios{
+    color: black;
+}
+
+.lunes{color: red;}
+.martes{color: yellow;}
+.miercoles{color: white;}
+.jueves{color: green;}
+.viernes{color: orange;}
+.sabado{color: violet;}
+.domingo{color: blue;}
+
+.columna{
+    float: left;
+    padding-left: 40px;
+}
+
+.titulo{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.cajas{
+    width: 100%;
+    margin: 10px;
+}
+
+.expimgs{
+    margin-left: 20px;
+    width: 50%;
+    margin: 10px;
+}
