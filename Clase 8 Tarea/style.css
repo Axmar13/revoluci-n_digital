@@ -1,0 +1,243 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul li {
+    margin: 3px 0;
+  }
+
+.ulredes{
+    list-style: none;
+}
+
+.redes a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer a{
+    color: #000000;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial;
+    background-image: url("bandera_argentina.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.grid{
+    display: grid;
+    margin: 0 auto;
+}
+
+.body{
+    padding: 10px;
+    color: black;
+}
+
+.tabla{
+    border-color: yellow;
+}
+
+.horarios{
+    color: black;
+}
+
+.lunes{color: red;}
+.martes{color: yellow;}
+.miercoles{color: white;}
+.jueves{color: green;}
+.viernes{color: orange;}
+.sabado{color: violet;}
+.domingo{color: blue;}
+
+.columna{
+    float: left;
+    padding-left: 40px;
+}
+
+.titulo{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.cajas{
+    width: 100%;
+    margin: 10px;
+}
+
+.expimgs{
+    margin-left: 20px;
+    width: 50%;
+    margin: 10px;
+}
+
+@media (max-width: 480px){
+    .grid{
+        grid-template-columns: 1fr 2fr;
+    }
+    .header{
+        padding-top: 80px;
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .imgcv{
+        width: 200px;
+        padding: 10px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .perfil{
+        padding-top: px;
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+    .idiomas{
+        padding-top: 50px;
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .redes{
+        text-align: right;
+        padding-right: 10px;
+        grid-column: 2;
+        grid-row: 3;
+    }
+    .footer{
+        text-align: center;
+        grid-column: 1/3;
+        grid-row: 4;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .grid{
+        grid-template-columns: 1fr 2fr;
+        /*grid-template-rows: repeat(4, 1fr);*/
+    }
+    .header{
+        padding-top: 80px;
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .imgcv{
+        width: 190px;
+        padding: 10px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .perfil{
+        padding-top: px;
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+    .idiomas{
+        padding-top: 50px;
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .redes{
+        text-align: right;
+        padding-top: 20px;
+        padding-right: 10px;
+        grid-column: 2;
+        grid-row: 3;
+    }
+    .footer{
+        text-align: center;
+        grid-column: 1/3;
+        grid-row: 4;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .grid{
+        grid-template-columns: 1.3fr 2fr;
+    }
+    .header{
+        padding-top: 60px;
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .imgcv{
+        justify-self: end; 
+        align-self: center;
+        width: 170px;
+        padding: 10px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .perfil{
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+    .idiomas{
+        padding-top: 90px;
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .redes{
+        text-align: right;
+        padding-top: 90px;
+        padding-right: 10px;
+        grid-column: 2;
+        grid-row: 3;
+    }
+    .footer{
+        text-align: center;
+        grid-column: 1/3;
+        grid-row: 4;
+    }
+}
+
+@media (min-width: 1025px){
+    .grid{
+        grid-template-columns: 1.3fr 2fr;
+    }
+    .header{
+        padding-top: 60px;
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .imgcv{
+        justify-self: end; 
+        align-self: center;
+        width: 170px;
+        padding: 10px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .perfil{
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+    .idiomas{
+        padding-top: 90px;
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .redes{
+        text-align: right;
+        padding-top: 90px;
+        padding-right: 10px;
+        grid-column: 2;
+        grid-row: 3;
+    }
+    .footer{
+        text-align: center;
+        grid-column: 1/3;
+        grid-row: 4;
+    }
+}
