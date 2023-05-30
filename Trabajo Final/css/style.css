@@ -41,7 +41,7 @@ ul li {
 
 body{
     font-family: Arial;
-    background-image: url("bandera_argentina.jpeg");
+    background-image: url("/img/bandera_argentina.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
